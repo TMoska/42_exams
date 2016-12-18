@@ -6,7 +6,7 @@
 /*   By: tmoska <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/12/05 23:49:04 by tmoska            #+#    #+#             */
-/*   Updated: 2016/12/05 23:56:33 by tmoska           ###   ########.fr       */
+/*   Updated: 2016/12/18 02:20:42 by tmoska           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int		ft_strlen(char *str)
 	return (size);
 }
 
-char 	*ft_strcpy(char *dst, char *src)
+char	*ft_strcpy(char *dst, char *src)
 {
 	char	*tmp;
 

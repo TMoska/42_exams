@@ -6,11 +6,11 @@
 /*   By: exam <marvin@42.fr>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/12/06 10:15:23 by exam              #+#    #+#             */
-/*   Updated: 2016/12/06 10:21:00 by exam             ###   ########.fr       */
+/*   Updated: 2016/12/18 02:21:17 by tmoska           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		max(int* tab, unsigned int len)
+int		max(int *tab, unsigned int len)
 {
 	int				max;
 	unsigned int	i;
@@ -22,8 +22,8 @@ int		max(int* tab, unsigned int len)
 	while (i < len)
 	{
 		if (tab[i] > max)
-		   max = tab[i];
- 		i++;
+			max = tab[i];
+		i++;
 	}
-	return (max);	
+	return (max);
 }
